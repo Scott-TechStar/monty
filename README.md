@@ -67,11 +67,28 @@ typedef struct instruction_s
 ## List of files/Descriptions:
 | S/N   |   Files      		|      Description     |
 |:-----:|--------------------:|--------------------|
-|  1.   |                      |              |
-|  2.   |		|			|
-|  3.   |		|		|
-|  4.   |		|			|
-|  5.   |		|		|
+|  1.   |add.c                  |              |
+|  2.   |addnode.c	|			|
+|  3.   |div.c		|		|
+|  4.   |execute.c		|			|
+|  5.   |fre_stack.c		|		|
+|  6.   |main.c                  |              |
+|  7.   |mod.c	|			|
+|  8.   |monty.h		|		|
+|  9.   |mul.c		|			|
+|  10.  |nop.c		|		|
+|  11.  |pall.c                  |              |
+|  12.  |pchar.c	|			|
+|  13.  |pint.c		|		|
+|  14.  |pop.c		|			|
+|  15.  |pstr.c		|		|
+|  16.  |push.c                  |              |
+|  17.  |queue.c	|			|
+|  18.  |rotl.c		|		|
+|  19.  |rotr.c		|			|
+|  20.  |stack.c		|		|
+|  21.  |sub.c		|			|
+|  22.  |swap.c		|		|
 
 ## Compilation & Output
 * These codes were compiled using: ```gcc -Wall -Werror -Wextra -pedantic -std=c89 *.c -o monty```
